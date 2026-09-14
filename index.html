@@ -1,10 +1,21 @@
 ﻿<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+  <!-- CSS do Fancybox -->
+<link rel="stylesheet" href="https://jsdelivr.net"/>
+<!-- Font Awesome para o ícone da lupa -->
+<link rel="stylesheet" href="https://cloudflare.com">
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<meta name="description" content="Pousada Sol e Mar — A Joia do Litoral Norte em Juquehy, São Sebastião - SP. Mar calmo, areia branca e estrutura completa para toda a família."/>
+<meta name="description" content="Pousada Sol e Mar — A Jóia do Litoral Norte em Juquehy, São Sebastião - SP. Mar calmo, areia branca e estrutura completa para toda a família."/>
 <title>Pousada Sol e Mar — Juquehy, São Sebastião - SP</title>
+<!-- Favicon (padrões modernos) -->
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/web.manifest">
+<link rel="shortcut icon" href="/favicon.ico">
+<meta name="theme-color" content="#F59E0B" />
 <script src="https://cdn.tailwindcss.com"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
@@ -91,7 +102,7 @@ body{background:#060B14;font-family:Inter,system-ui,sans-serif;color:#f1f5f9}
 <!-- NAVBAR -->
 <header id="navbar" class="fixed top-0 left-0 right-0 z-40 py-5 px-6 lg:px-12 transition-all duration-300">
   <nav class="max-w-7xl mx-auto flex items-center justify-between">
-    <a href="#inicio" class="flex items-center gap-3 group">
+    <a href="#início" class="flex items-center gap-3 group">
       <div class="w-10 h-10 rounded-full bg-amber-500 flex items-center justify-center shadow-lg group-hover:bg-amber-400 transition-colors">
         <svg class="w-5 h-5" viewBox="0 0 24 24" fill="white"><path d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.592-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z"/></svg>
       </div>
@@ -104,7 +115,7 @@ body{background:#060B14;font-family:Inter,system-ui,sans-serif;color:#f1f5f9}
       <li><a href="#sobre" class="text-sm font-medium text-gray-300 hover:text-amber-400 transition-colors">Sobre</a></li>
       <li><a href="#quartos" class="text-sm font-medium text-gray-300 hover:text-amber-400 transition-colors">Quartos</a></li>
       <li><a href="#galeria" class="text-sm font-medium text-gray-300 hover:text-amber-400 transition-colors">Galeria</a></li>
-      <li><a href="#experiencias" class="text-sm font-medium text-gray-300 hover:text-amber-400 transition-colors">Experiências</a></li>
+      <li><a href="#Experiências" class="text-sm font-medium text-gray-300 hover:text-amber-400 transition-colors">Experiências</a></li>
       <li><a href="#depoimentos" class="text-sm font-medium text-gray-300 hover:text-amber-400 transition-colors">Depoimentos</a></li>
       <li><a href="#contato" class="text-sm font-medium text-gray-300 hover:text-amber-400 transition-colors">Contato</a></li>
     </ul>
@@ -118,7 +129,7 @@ body{background:#060B14;font-family:Inter,system-ui,sans-serif;color:#f1f5f9}
       <li><a href="#sobre" class="block text-gray-300 hover:text-amber-400 font-medium py-1" onclick="document.getElementById('mobile-menu').classList.add('hidden')">Sobre</a></li>
       <li><a href="#quartos" class="block text-gray-300 hover:text-amber-400 font-medium py-1" onclick="document.getElementById('mobile-menu').classList.add('hidden')">Quartos</a></li>
       <li><a href="#galeria" class="block text-gray-300 hover:text-amber-400 font-medium py-1" onclick="document.getElementById('mobile-menu').classList.add('hidden')">Galeria</a></li>
-      <li><a href="#experiencias" class="block text-gray-300 hover:text-amber-400 font-medium py-1" onclick="document.getElementById('mobile-menu').classList.add('hidden')">Experiências</a></li>
+      <li><a href="#Experiências" class="block text-gray-300 hover:text-amber-400 font-medium py-1" onclick="document.getElementById('mobile-menu').classList.add('hidden')">Experiências</a></li>
       <li><a href="#depoimentos" class="block text-gray-300 hover:text-amber-400 font-medium py-1" onclick="document.getElementById('mobile-menu').classList.add('hidden')">Depoimentos</a></li>
       <li><a href="#contato" class="block text-gray-300 hover:text-amber-400 font-medium py-1" onclick="document.getElementById('mobile-menu').classList.add('hidden')">Contato</a></li>
     </ul>
@@ -129,10 +140,13 @@ body{background:#060B14;font-family:Inter,system-ui,sans-serif;color:#f1f5f9}
 <!-- ═══════════════════════════════════════════════════════════
      HERO — Pousada Sol e Mar Piscina Dia.webp
 ═══════════════════════════════════════════════════════════ -->
-<section id="inicio" class="relative min-h-screen flex items-center justify-center overflow-hidden">
+<section id="início" class="relative min-h-screen flex items-center justify-center overflow-hidden">
   <div class="absolute inset-0 z-0">
-    <img src="Pousada Sol e Mar Piscina Dia.webp" alt="Piscina da Pousada Sol e Mar" class="w-full h-full object-cover object-center" loading="eager"/>
-    <div class="hero-overlay absolute inset-0"></div>
+  <div class="hero-overlay absolute inset-0 z-0 flex items-center justify-center">
+    <img src="Pousada Sol e Mar Piscina Dia.webp" alt="Piscina da Pousada Sol e Mar" class="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-105">
+    <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+        <i class="fa-solid fa-magnifying-glass-plus text-4xl text-amber-400"></i>
+    </div>
   </div>
   <div class="absolute bottom-0 left-0 right-0 z-10 pointer-events-none">
     <svg viewBox="0 0 1440 80" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" class="w-full h-16 lg:h-24"><path d="M0,40 C240,80 480,0 720,40 C960,80 1200,0 1440,40 L1440,80 L0,80 Z" fill="#060B14"/></svg>
@@ -147,7 +161,7 @@ body{background:#060B14;font-family:Inter,system-ui,sans-serif;color:#f1f5f9}
       <span class="block gold-text italic">em Juquehy</span>
     </h1>
     <p class="text-lg sm:text-xl lg:text-2xl text-gray-300 font-light max-w-2xl mx-auto mb-10 leading-relaxed">
-      Mar calmo, areia branca e fina, 3,5 km de praia e uma infraestrutura completa. Bem-vindo à Joia do Litoral Norte.
+      Mar calmo, areia branca e fina, 3,5 km de praia e uma infraestrutura completa. Bem-vindo à Jóia do Litoral Norte.
     </p>
     <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
       <a href="https://wa.me/551238631666?text=Ol%C3%A1!%20Gostaria%20de%20fazer%20uma%20reserva%20na%20Pousada%20Sol%20e%20Mar.%20Poderia%20me%20informar%20a%20disponibilidade%20e%20os%20pre%C3%A7os%3F" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3 bg-amber-500 hover:bg-amber-400 text-gray-900 font-bold text-base px-8 py-4 rounded-full shadow-2xl transition-all duration-200 hover:-translate-y-1 w-full sm:w-auto justify-center">
@@ -165,7 +179,7 @@ body{background:#060B14;font-family:Inter,system-ui,sans-serif;color:#f1f5f9}
         <div class="text-xs text-gray-400 mt-1">Anos de história</div>
       </div>
       <div class="text-center p-4 rounded-2xl" style="background:rgba(255,255,255,.06);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,.1)">
-        <div class="font-serif text-2xl font-bold text-amber-400">500+</div>
+        <div class="font-serif text-2xl font-bold text-amber-400">15.000+</div>
         <div class="text-xs text-gray-400 mt-1">Hóspedes felizes</div>
       </div>
       <div class="text-center p-4 rounded-2xl" style="background:rgba(255,255,255,.06);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,.1)">
@@ -188,10 +202,10 @@ body{background:#060B14;font-family:Inter,system-ui,sans-serif;color:#f1f5f9}
           Onde o mar encontra<br/><span class="gold-text italic">o aconchego do lar</span>
         </h2>
         <p class="text-gray-400 text-lg leading-relaxed mb-6">
-          Fundada em 2007 por uma família apaixonada pelo litoral norte paulista, a Pousada Sol e Mar nasceu do sonho de oferecer muito mais do que hospedagem — uma experiência completa de bem-estar à beira-mar, na famosa Praia de Juquehy.
+          Fundada em 2007 por uma família apaixonada pelo litoral norte paulista, a Pousada Sol e Mar nasceu do sonho de oferecer muito mais do que hospedagem — uma experiência completa de bem-estar à com serviço de praia exclusivo, na famosa Praia de Juquehy.
         </p>
         <p class="text-gray-400 leading-relaxed mb-8">
-          Situada a cerca de 250 metros da Praia de Juquehy — a "Joia do Litoral Norte" —, nossa pousada combina a beleza natural do Atlântico com conforto moderno e o calor humano do atendimento personalizado. Estrutura completa de lazer, mar calmo e seguro para toda a família, e uma localização privilegiada no Km 176 da Rodovia Rio-Santos.
+          Situada a cerca de 250 metros da Praia de Juquehy — a "Jóia do Litoral Norte" —, nossa pousada combina a beleza natural do Atlântico com conforto moderno e o calor humano do atendimento personalizado. Estrutura completa de lazer, mar calmo e seguro para toda a família, e uma localização privilegiada no Km 176 da Rodovia Rio-Santos.
         </p>
         <div class="grid grid-cols-2 gap-3 mb-8">
           <div class="flex items-center gap-3"><div class="w-8 h-8 rounded-full flex-shrink-0 flex items-center justify-center" style="background:rgba(245,158,11,.15);border:1px solid rgba(245,158,11,.3)"><svg class="w-4 h-4" viewBox="0 0 20 20" fill="#F59E0B"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd"/></svg></div><span class="text-gray-300 text-sm">250m da praia</span></div>
@@ -208,7 +222,7 @@ body{background:#060B14;font-family:Inter,system-ui,sans-serif;color:#f1f5f9}
       </div>
       <div class="relative">
         <div class="img-zoom rounded-3xl overflow-hidden shadow-2xl" style="border:1px solid rgba(255,255,255,.08)">
-          <img src="Pousada Sol e Mar Piscina Dia.webp" alt="Piscina da Pousada Sol e Mar" class="w-full h-96 lg:h-[520px] object-cover"/>
+          <img src="POUSADA FACHADA.jpg" alt="Piscina da Pousada Sol e Mar" class="w-full h-96 lg:h-[520px] object-cover"/>
         </div>
         <div class="absolute -bottom-6 -left-6 p-5 rounded-2xl shadow-xl" style="background:linear-gradient(135deg,#0F172A,#0A0F1E);border:1px solid rgba(245,158,11,.25)">
           <div class="flex items-center gap-3">
@@ -274,9 +288,15 @@ body{background:#060B14;font-family:Inter,system-ui,sans-serif;color:#f1f5f9}
     </div>
     <!-- Filter Buttons -->
     <div class="flex items-center justify-center gap-3 mb-12 flex-wrap">
-      <button class="filter-btn active" onclick="filterRooms(this,'todos')">Todos</button>
-      <button class="filter-btn" onclick="filterRooms(this,'casal')">Para Casais</button>
-      <button class="filter-btn" onclick="filterRooms(this,'familia')">Para Famílias</button>
+      <!-- Botão Todos -->
+<button type="button" class="filter-btn active" data-filter="todos" onclick="filterRooms('todos', this)">Todos</button>
+
+<!-- Botão Para Casais -->
+<button type="button" class="filter-btn" data-filter="casal" onclick="filterRooms('casal', this)">Para Casais</button>
+
+<!-- Botão Para Famílias -->
+<button type="button" class="filter-btn" data-filter="familia" onclick="filterRooms('familia', this)">Para Famílias</button>
+
     </div>
     <!-- Room Grid -->
     <div class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6" id="rooms-grid">
@@ -287,6 +307,9 @@ body{background:#060B14;font-family:Inter,system-ui,sans-serif;color:#f1f5f9}
           <div class="img-zoom h-52 relative flex-shrink-0">
             <img src="SUITE LUXO.webp" alt="Suíte Luxo" class="w-full h-full object-cover"/>
             <div class="absolute top-3 left-3 z-10"><span class="text-xs font-bold px-3 py-1 rounded-full" style="background:rgba(245,158,11,.9);color:#111">Para Casais</span></div>
+            <div class="absolute inset-0 flex items-end p-4 z-10">
+              <div class="text-white text-xs flex gap-3" style="text-shadow:0 1px 3px rgba(0,0,0,.8)"><span>👥 Até 2 pessoas</span></div>
+            </div>
           </div>
           <div class="p-5 flex flex-col flex-1">
             <h3 class="font-serif text-lg font-bold text-white mb-2">Suíte Luxo</h3>
@@ -295,7 +318,7 @@ body{background:#060B14;font-family:Inter,system-ui,sans-serif;color:#f1f5f9}
               <div><div class="text-xs text-gray-500 mb-0.5">A partir de</div><div class="font-serif text-xl font-bold text-amber-400">R$ 432<span class="text-xs font-normal text-gray-400">/noite</span></div></div>
               <div class="text-xs text-gray-500">Café incluso</div>
             </div>
-            <button onclick="openModal('modal-suite-luxo')" class="w-full py-2 mb-2 rounded-xl text-sm font-semibold text-amber-400 border border-amber-400/40 hover:bg-amber-400/10 transition-all">📷 Ver Fotos</button>
+            <button onclick="openRoomGallery('suite-luxo')" class="w-full py-2 mb-2 rounded-xl text-sm font-semibold text-amber-400 border border-amber-400/40 hover:bg-amber-400/10 transition-all">📷 Ver Fotos</button>
             <a href="https://wa.me/551238631666?text=Ol%C3%A1!%20Gostaria%20de%20reservar%20a%20Su%C3%ADte%20Luxo." target="_blank" rel="noopener noreferrer" class="flex items-center justify-center gap-2 w-full py-2.5 rounded-xl font-semibold text-sm text-white transition-all hover:-translate-y-0.5" style="background:linear-gradient(135deg,#25D366,#128C7E)">Reservar pelo WhatsApp</a>
           </div>
         </div>
@@ -305,17 +328,20 @@ body{background:#060B14;font-family:Inter,system-ui,sans-serif;color:#f1f5f9}
       <div class="room-card-wrap" data-category="familia">
         <div class="room-card rounded-3xl overflow-hidden h-full flex flex-col">
           <div class="img-zoom h-52 relative flex-shrink-0">
-            <img src="PSEM QUARTO 3.webp" alt="Suíte Premium Superior" class="w-full h-full object-cover"/>
+            <img src="SUITE PREMIUM SUPERIOR.webp" alt="Suíte Premium Superior" class="w-full h-full object-cover"/>
             <div class="absolute top-3 left-3 z-10"><span class="text-xs font-bold px-3 py-1 rounded-full" style="background:rgba(20,184,166,.9);color:#fff">Para Famílias</span></div>
+            <div class="absolute inset-0 flex items-end p-4 z-10">
+              <div class="text-white text-xs flex gap-3" style="text-shadow:0 1px 3px rgba(0,0,0,.8)"><span>👥 Até 4 pessoas</span></div>
+            </div>
           </div>
           <div class="p-5 flex flex-col flex-1">
             <h3 class="font-serif text-lg font-bold text-white mb-2">Suíte Premium Superior</h3>
             <div class="flex flex-wrap gap-1 mb-3"><span class="amenity">Ar-cond.</span><span class="amenity">TV</span><span class="amenity">Frigobar</span><span class="amenity">Wi-Fi</span></div>
             <div class="flex items-end justify-between mb-3 mt-auto" style="background:linear-gradient(135deg,rgba(245,158,11,.12),rgba(245,158,11,.04));border:1px solid rgba(245,158,11,.2);border-radius:10px;padding:10px 14px">
-              <div><div class="text-xs text-gray-500 mb-0.5">A partir de</div><div class="font-serif text-xl font-bold text-amber-400">R$ 454<span class="text-xs font-normal text-gray-400">/noite</span></div></div>
+              <div><div class="text-xs text-gray-500 mb-0.5">A partir de</div><div class="font-serif text-xl font-bold text-amber-400">R$ 476<span class="text-xs font-normal text-gray-400">/noite</span></div></div>
               <div class="text-xs text-gray-500">Café incluso</div>
             </div>
-            <button onclick="openModal('modal-suite-premium-sup')" class="w-full py-2 mb-2 rounded-xl text-sm font-semibold text-amber-400 border border-amber-400/40 hover:bg-amber-400/10 transition-all">📷 Ver Fotos</button>
+            <button onclick="openRoomGallery('suite-premium-sup')" class="w-full py-2 mb-2 rounded-xl text-sm font-semibold text-amber-400 border border-amber-400/40 hover:bg-amber-400/10 transition-all">📷 Ver Fotos</button>
             <a href="https://wa.me/551238631666?text=Ol%C3%A1!%20Gostaria%20de%20reservar%20a%20Su%C3%ADte%20Premium%20Superior." target="_blank" rel="noopener noreferrer" class="flex items-center justify-center gap-2 w-full py-2.5 rounded-xl font-semibold text-sm text-white transition-all hover:-translate-y-0.5" style="background:linear-gradient(135deg,#25D366,#128C7E)">Reservar pelo WhatsApp</a>
           </div>
         </div>
@@ -325,17 +351,20 @@ body{background:#060B14;font-family:Inter,system-ui,sans-serif;color:#f1f5f9}
       <div class="room-card-wrap" data-category="familia">
         <div class="room-card rounded-3xl overflow-hidden h-full flex flex-col">
           <div class="img-zoom h-52 relative flex-shrink-0">
-            <img src="APARTAMENTO COM COZINHA.webp" alt="Apartamento com Cozinha" class="w-full h-full object-cover"/>
+            <img src="APARTAMENTO COM COZINHA 3.jpg" alt="Apartamento com Cozinha" class="w-full h-full object-cover"/>
             <div class="absolute top-3 left-3 z-10"><span class="text-xs font-bold px-3 py-1 rounded-full" style="background:rgba(20,184,166,.9);color:#fff">Para Famílias</span></div>
+            <div class="absolute inset-0 flex items-end p-4 z-10">
+              <div class="text-white text-xs flex gap-3" style="text-shadow:0 1px 3px rgba(0,0,0,.8)"><span>👥 Até 5 pessoas</span></div>
+            </div>
           </div>
           <div class="p-5 flex flex-col flex-1">
             <h3 class="font-serif text-lg font-bold text-white mb-2">Apartamento com Cozinha</h3>
             <div class="flex flex-wrap gap-1 mb-3"><span class="amenity">Cozinha</span><span class="amenity">Ar-cond.</span><span class="amenity">TV</span><span class="amenity">Wi-Fi</span></div>
             <div class="flex items-end justify-between mb-3 mt-auto" style="background:linear-gradient(135deg,rgba(245,158,11,.12),rgba(245,158,11,.04));border:1px solid rgba(245,158,11,.2);border-radius:10px;padding:10px 14px">
-              <div><div class="text-xs text-gray-500 mb-0.5">A partir de</div><div class="font-serif text-xl font-bold text-amber-400">R$ 476<span class="text-xs font-normal text-gray-400">/noite</span></div></div>
+              <div><div class="text-xs text-gray-500 mb-0.5">A partir de</div><div class="font-serif text-xl font-bold text-amber-400">R$ 580<span class="text-xs font-normal text-gray-400">/noite</span></div></div>
               <div class="text-xs text-gray-500">Café incluso</div>
             </div>
-            <button onclick="openModal('modal-apto-cozinha')" class="w-full py-2 mb-2 rounded-xl text-sm font-semibold text-amber-400 border border-amber-400/40 hover:bg-amber-400/10 transition-all">📷 Ver Fotos</button>
+            <button onclick="openRoomGallery('apto-cozinha')" class="w-full py-2 mb-2 rounded-xl text-sm font-semibold text-amber-400 border border-amber-400/40 hover:bg-amber-400/10 transition-all">📷 Ver Fotos</button>
             <a href="https://wa.me/551238631666?text=Ol%C3%A1!%20Gostaria%20de%20reservar%20o%20Apartamento%20com%20Cozinha." target="_blank" rel="noopener noreferrer" class="flex items-center justify-center gap-2 w-full py-2.5 rounded-xl font-semibold text-sm text-white transition-all hover:-translate-y-0.5" style="background:linear-gradient(135deg,#25D366,#128C7E)">Reservar pelo WhatsApp</a>
           </div>
         </div>
@@ -348,15 +377,18 @@ body{background:#060B14;font-family:Inter,system-ui,sans-serif;color:#f1f5f9}
             <img src="SUITE MASTER.webp" alt="Suíte Master" class="w-full h-full object-cover"/>
             <div class="absolute top-3 left-3 z-10"><span class="text-xs font-bold px-3 py-1 rounded-full" style="background:rgba(20,184,166,.9);color:#fff">Para Famílias</span></div>
             <div class="absolute top-3 right-3 z-10"><span class="text-xs font-bold px-3 py-1 rounded-full" style="background:rgba(245,158,11,.9);color:#111">⭐ Destaque</span></div>
+            <div class="absolute inset-0 flex items-end p-4 z-10">
+              <div class="text-white text-xs flex gap-3" style="text-shadow:0 1px 3px rgba(0,0,0,.8)"><span>👥 Até 4 pessoas</span></div>
+            </div>
           </div>
           <div class="p-5 flex flex-col flex-1">
             <h3 class="font-serif text-lg font-bold text-white mb-2">Suíte Master</h3>
             <div class="flex flex-wrap gap-1 mb-3"><span class="amenity">Ar-cond.</span><span class="amenity">TV</span><span class="amenity">Frigobar</span><span class="amenity">Wi-Fi</span></div>
             <div class="flex items-end justify-between mb-3 mt-auto" style="background:linear-gradient(135deg,rgba(245,158,11,.12),rgba(245,158,11,.04));border:1px solid rgba(245,158,11,.2);border-radius:10px;padding:10px 14px">
-              <div><div class="text-xs text-gray-500 mb-0.5">A partir de</div><div class="font-serif text-xl font-bold text-amber-400">Consulte<span class="text-xs font-normal text-gray-400"> preço</span></div></div>
+              <div><div class="text-xs text-gray-500 mb-0.5">A partir de</div><div class="font-serif text-xl font-bold text-amber-400">R$498<span class="text-xs font-normal text-gray-400"> /noite</span></div></div>
               <div class="text-xs text-gray-500">Café incluso</div>
             </div>
-            <button onclick="openModal('modal-suite-master')" class="w-full py-2 mb-2 rounded-xl text-sm font-semibold text-amber-400 border border-amber-400/40 hover:bg-amber-400/10 transition-all">📷 Ver Fotos</button>
+            <button onclick="openRoomGallery('suite-master')" class="w-full py-2 mb-2 rounded-xl text-sm font-semibold text-amber-400 border border-amber-400/40 hover:bg-amber-400/10 transition-all">📷 Ver Fotos</button>
             <a href="https://wa.me/551238631666?text=Ol%C3%A1!%20Gostaria%20de%20reservar%20a%20Su%C3%ADte%20Master." target="_blank" rel="noopener noreferrer" class="flex items-center justify-center gap-2 w-full py-2.5 rounded-xl font-semibold text-sm text-white transition-all hover:-translate-y-0.5" style="background:linear-gradient(135deg,#25D366,#128C7E)">Reservar pelo WhatsApp</a>
           </div>
         </div>
@@ -366,17 +398,20 @@ body{background:#060B14;font-family:Inter,system-ui,sans-serif;color:#f1f5f9}
       <div class="room-card-wrap" data-category="casal">
         <div class="room-card rounded-3xl overflow-hidden h-full flex flex-col">
           <div class="img-zoom h-52 relative flex-shrink-0">
-            <img src="PSEM QUARTO 1.webp" alt="Suíte Premium Inferior" class="w-full h-full object-cover"/>
+            <img src="SUITE PREMIUM INFERIOR.webp" alt="Suíte Premium Inferior" class="w-full h-full object-cover"/>
             <div class="absolute top-3 left-3 z-10"><span class="text-xs font-bold px-3 py-1 rounded-full" style="background:rgba(245,158,11,.9);color:#111">Para Casais</span></div>
+            <div class="absolute inset-0 flex items-end p-4 z-10">
+              <div class="text-white text-xs flex gap-3" style="text-shadow:0 1px 3px rgba(0,0,0,.8)"><span>👥 Até 3 pessoas</span></div>
+            </div>
           </div>
           <div class="p-5 flex flex-col flex-1">
             <h3 class="font-serif text-lg font-bold text-white mb-2">Suíte Premium Inferior</h3>
             <div class="flex flex-wrap gap-1 mb-3"><span class="amenity">Ar-cond.</span><span class="amenity">TV</span><span class="amenity">Frigobar</span><span class="amenity">Wi-Fi</span></div>
             <div class="flex items-end justify-between mb-3 mt-auto" style="background:linear-gradient(135deg,rgba(245,158,11,.12),rgba(245,158,11,.04));border:1px solid rgba(245,158,11,.2);border-radius:10px;padding:10px 14px">
-              <div><div class="text-xs text-gray-500 mb-0.5">A partir de</div><div class="font-serif text-xl font-bold text-amber-400">Consulte<span class="text-xs font-normal text-gray-400"> preço</span></div></div>
+              <div><div class="text-xs text-gray-500 mb-0.5">A partir de</div><div class="font-serif text-xl font-bold text-amber-400">R$454<span class="text-xs font-normal text-gray-400"> /noite</span></div></div>
               <div class="text-xs text-gray-500">Café incluso</div>
             </div>
-            <button onclick="openModal('modal-suite-premium-inf')" class="w-full py-2 mb-2 rounded-xl text-sm font-semibold text-amber-400 border border-amber-400/40 hover:bg-amber-400/10 transition-all">📷 Ver Fotos</button>
+            <button onclick="openRoomGallery('suite-premium-inf')" class="w-full py-2 mb-2 rounded-xl text-sm font-semibold text-amber-400 border border-amber-400/40 hover:bg-amber-400/10 transition-all">📷 Ver Fotos</button>
             <a href="https://wa.me/551238631666?text=Ol%C3%A1!%20Gostaria%20de%20reservar%20a%20Su%C3%ADte%20Premium%20Inferior." target="_blank" rel="noopener noreferrer" class="flex items-center justify-center gap-2 w-full py-2.5 rounded-xl font-semibold text-sm text-white transition-all hover:-translate-y-0.5" style="background:linear-gradient(135deg,#25D366,#128C7E)">Reservar pelo WhatsApp</a>
           </div>
         </div>
@@ -386,7 +421,7 @@ body{background:#060B14;font-family:Inter,system-ui,sans-serif;color:#f1f5f9}
       <div class="room-card-wrap" data-category="familia">
         <div class="room-card rounded-3xl overflow-hidden h-full flex flex-col">
           <div class="h-52 relative flex-shrink-0 overflow-hidden">
-            <img src="PSEM PRAIA.webp" alt="Apartamento" class="w-full h-full object-cover" style="filter:brightness(0.5)"/>
+            <img src="APARTAMENTO COM COZINHA 6.jpg" alt="Apartamento" class="w-full h-full object-cover" style="filter:brightness(0.5)"/>
             <div class="absolute top-3 left-3 z-10"><span class="text-xs font-bold px-3 py-1 rounded-full" style="background:rgba(20,184,166,.9);color:#fff">Para Famílias</span></div>
             <div class="absolute inset-0 flex items-end p-4 z-10">
               <div class="text-white text-xs flex gap-3"><span>👥 Até 4 pessoas</span><span>🛏 2 quartos</span></div>
@@ -396,10 +431,9 @@ body{background:#060B14;font-family:Inter,system-ui,sans-serif;color:#f1f5f9}
             <h3 class="font-serif text-lg font-bold text-white mb-2">Apartamento</h3>
             <div class="flex flex-wrap gap-1 mb-3"><span class="amenity">Ar-cond.</span><span class="amenity">TV</span><span class="amenity">Frigobar</span><span class="amenity">Wi-Fi</span></div>
             <div class="flex items-end justify-between mb-3 mt-auto" style="background:linear-gradient(135deg,rgba(245,158,11,.12),rgba(245,158,11,.04));border:1px solid rgba(245,158,11,.2);border-radius:10px;padding:10px 14px">
-              <div><div class="text-xs text-gray-500 mb-0.5">A partir de</div><div class="font-serif text-xl font-bold text-amber-400">Consulte<span class="text-xs font-normal text-gray-400"> preço</span></div></div>
+              <div><div class="text-xs text-gray-500 mb-0.5">A partir de</div><div class="font-serif text-xl font-bold text-amber-400">R$550<span class="text-xs font-normal text-gray-400"> /noite</span></div></div>
               <div class="text-xs text-gray-500">Café incluso</div>
             </div>
-            <button onclick="openModal('modal-apartamento')" class="w-full py-2 mb-2 rounded-xl text-sm font-semibold text-amber-400 border border-amber-400/40 hover:bg-amber-400/10 transition-all">📷 Ver Fotos</button>
             <a href="https://wa.me/551238631666?text=Ol%C3%A1!%20Gostaria%20de%20reservar%20o%20Apartamento." target="_blank" rel="noopener noreferrer" class="flex items-center justify-center gap-2 w-full py-2.5 rounded-xl font-semibold text-sm text-white transition-all hover:-translate-y-0.5" style="background:linear-gradient(135deg,#25D366,#128C7E)">Reservar pelo WhatsApp</a>
           </div>
         </div>
@@ -409,17 +443,19 @@ body{background:#060B14;font-family:Inter,system-ui,sans-serif;color:#f1f5f9}
       <div class="room-card-wrap" data-category="familia">
         <div class="room-card rounded-3xl overflow-hidden h-full flex flex-col">
           <div class="img-zoom h-52 relative flex-shrink-0">
-            <img src="PSEM NOVA 1.jpg" alt="Apartamento Lateral" class="w-full h-full object-cover"/>
+            <img src="POUSADA FACHADA.jpg" alt="Apartamento Lateral" class="w-full h-full object-cover"/>
             <div class="absolute top-3 left-3 z-10"><span class="text-xs font-bold px-3 py-1 rounded-full" style="background:rgba(20,184,166,.9);color:#fff">Para Famílias</span></div>
+            <div class="absolute inset-0 flex items-end p-4 z-10">
+              <div class="text-white text-xs flex gap-3" style="text-shadow:0 1px 3px rgba(0,0,0,.8)"><span>👥 Até 3 pessoas</span></div>
+            </div>
           </div>
           <div class="p-5 flex flex-col flex-1">
             <h3 class="font-serif text-lg font-bold text-white mb-2">Apartamento Lateral</h3>
             <div class="flex flex-wrap gap-1 mb-3"><span class="amenity">Sacada</span><span class="amenity">Ar-cond.</span><span class="amenity">TV</span><span class="amenity">Wi-Fi</span></div>
             <div class="flex items-end justify-between mb-3 mt-auto" style="background:linear-gradient(135deg,rgba(245,158,11,.12),rgba(245,158,11,.04));border:1px solid rgba(245,158,11,.2);border-radius:10px;padding:10px 14px">
-              <div><div class="text-xs text-gray-500 mb-0.5">A partir de</div><div class="font-serif text-xl font-bold text-amber-400">Consulte<span class="text-xs font-normal text-gray-400"> preço</span></div></div>
+              <div><div class="text-xs text-gray-500 mb-0.5">A partir de</div><div class="font-serif text-xl font-bold text-amber-400">R$520<span class="text-xs font-normal text-gray-400"> /noite</span></div></div>
               <div class="text-xs text-gray-500">Café incluso</div>
             </div>
-            <button onclick="openModal('modal-apto-lateral')" class="w-full py-2 mb-2 rounded-xl text-sm font-semibold text-amber-400 border border-amber-400/40 hover:bg-amber-400/10 transition-all">📷 Ver Fotos</button>
             <a href="https://wa.me/551238631666?text=Ol%C3%A1!%20Gostaria%20de%20reservar%20o%20Apartamento%20Lateral." target="_blank" rel="noopener noreferrer" class="flex items-center justify-center gap-2 w-full py-2.5 rounded-xl font-semibold text-sm text-white transition-all hover:-translate-y-0.5" style="background:linear-gradient(135deg,#25D366,#128C7E)">Reservar pelo WhatsApp</a>
           </div>
         </div>
@@ -429,8 +465,11 @@ body{background:#060B14;font-family:Inter,system-ui,sans-serif;color:#f1f5f9}
       <div class="room-card-wrap" data-category="casal">
         <div class="room-card rounded-3xl overflow-hidden h-full flex flex-col">
           <div class="img-zoom h-52 relative flex-shrink-0">
-            <img src="PSEM QUARTO 1.webp" alt="Suíte Especial Acessibilidade" class="w-full h-full object-cover"/>
+            <img src="SUITE PREMIUM INFERIOR.webp" alt="Suíte Especial Acessibilidade" class="w-full h-full object-cover"/>
             <div class="absolute top-3 left-3 z-10"><span class="text-xs font-bold px-3 py-1 rounded-full" style="background:rgba(245,158,11,.9);color:#111">Para Casais</span></div>
+            <div class="absolute inset-0 flex items-end p-4 z-10">
+              <div class="text-white text-xs flex gap-3" style="text-shadow:0 1px 3px rgba(0,0,0,.8)"><span>👥 Até 2 pessoas</span></div>
+            </div>
           </div>
           <div class="p-5 flex flex-col flex-1">
             <div class="flex items-center gap-2 mb-2">
@@ -439,10 +478,9 @@ body{background:#060B14;font-family:Inter,system-ui,sans-serif;color:#f1f5f9}
             <div class="mb-2"><span class="tag-accessible">♿ Acomodação Adaptada / Térrea</span></div>
             <div class="flex flex-wrap gap-1 mb-3"><span class="amenity">Adaptada</span><span class="amenity">Ar-cond.</span><span class="amenity">TV</span><span class="amenity">Wi-Fi</span></div>
             <div class="flex items-end justify-between mb-3 mt-auto" style="background:linear-gradient(135deg,rgba(245,158,11,.12),rgba(245,158,11,.04));border:1px solid rgba(245,158,11,.2);border-radius:10px;padding:10px 14px">
-              <div><div class="text-xs text-gray-500 mb-0.5">A partir de</div><div class="font-serif text-xl font-bold text-amber-400">Consulte<span class="text-xs font-normal text-gray-400"> preço</span></div></div>
+              <div><div class="text-xs text-gray-500 mb-0.5">A partir de</div><div class="font-serif text-xl font-bold text-amber-400">R$432<span class="text-xs font-normal text-gray-400"> /noite</span></div></div>
               <div class="text-xs text-gray-500">Café incluso</div>
             </div>
-            <button onclick="openModal('modal-suite-acessibilidade')" class="w-full py-2 mb-2 rounded-xl text-sm font-semibold text-amber-400 border border-amber-400/40 hover:bg-amber-400/10 transition-all">📷 Ver Fotos</button>
             <a href="https://wa.me/551238631666?text=Ol%C3%A1!%20Gostaria%20de%20reservar%20a%20Su%C3%ADte%20Especial%20Acessibilidade." target="_blank" rel="noopener noreferrer" class="flex items-center justify-center gap-2 w-full py-2.5 rounded-xl font-semibold text-sm text-white transition-all hover:-translate-y-0.5" style="background:linear-gradient(135deg,#25D366,#128C7E)">Reservar pelo WhatsApp</a>
           </div>
         </div>
@@ -459,33 +497,59 @@ body{background:#060B14;font-family:Inter,system-ui,sans-serif;color:#f1f5f9}
   </div>
 </section>
 <!-- GALERIA GERAL -->
-<section id="galeria" class="py-24 px-6 lg:px-12" style="background:#060B14">
-  <div class="max-w-7xl mx-auto">
-    <div class="text-center mb-14">
-      <div class="section-badge mb-6">Galeria</div>
-      <h2 class="font-serif text-4xl lg:text-5xl font-bold text-white mb-4">Galeria de Fotos</h2>
-      <div class="gold-line mb-6"></div>
-      <p class="text-gray-400 text-lg max-w-2xl mx-auto">Conheca cada detalhe da Pousada Sol e Mar. Clique em qualquer foto para visualiza-la em tela cheia.</p>
-    </div>
-    <div class="gallery-grid">
-      <div class="gallery-item large" onclick="openGalleryModal(0)">
-        <img src="Pousada Sol e Mar Piscina Dia.webp" alt="Piscina da Pousada Sol e Mar"/>
-        <div class="gallery-item-overlay"><svg class="gallery-zoom-icon w-10 h-10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607zM10.5 7.5v6m3-3h-6"/></svg></div>
-      </div>
-      <div class="gallery-item" onclick="openGalleryModal(1)">
-        <img src="PSEM CF 3.webp" alt="Cafe da manha artesanal"/>
-        <div class="gallery-item-overlay"><svg class="gallery-zoom-icon w-10 h-10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607zM10.5 7.5v6m3-3h-6"/></svg></div>
-      </div>
-      <div class="gallery-item" onclick="openGalleryModal(2)">
-        <img src="PSEM PRAIA 3.webp" alt="Praia de Juquehy rochas"/>
-        <div class="gallery-item-overlay"><svg class="gallery-zoom-icon w-10 h-10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607zM10.5 7.5v6m3-3h-6"/></svg></div>
-      </div>
-      <div class="gallery-item large" onclick="openGalleryModal(3)">
-        <img src="PSEM PRAIA 2.webp" alt="Por do sol em Juquehy"/>
-        <div class="gallery-item-overlay"><svg class="gallery-zoom-icon w-10 h-10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607zM10.5 7.5v6m3-3h-6"/></svg></div>
-      </div>
-    </div>
-  </div>
+<section id="galeria" class="pt-40 pb-24 px-6 lg:px-12">
+    <div class="max-w-7xl mx-auto">
+        
+        <!-- TÍTULO DA GALERIA -->
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-white md:text-4xl">Galeria de Fotos</h2>
+            <p class="mt-4 text-lg text-gray-300">Conheça um pouco mais da nossa estrutura e localização</p>
+        </div>
+
+        <!-- GRADE DE FOTOS (GRID ATUALIZADO PARA 8 FOTOS) -->
+        <div class="gallery-grid">
+            
+            <!-- FOTO 1: Pôr do sol (Destaque Grande) -->
+            <div class="gallery-item large" onclick="openGalleryModal(0)">
+                <img src="PSEM PRAIA 2.webp" alt="Pôr do sol em Juquehy" class="gallery-img">
+                <div class="gallery-item-overlay">
+                    <svg class="gallery-zoom-icon w-10 h-10" viewBox="0 0 24 24" fill="none" stroke="currentColor"></svg>
+                </div>
+            </div>
+
+            <!-- FOTO 2: Fachada e Estrutura -->
+            <div class="gallery-item" onclick="openGalleryModal(1)">
+                <img src="POUSADA OPCAO.jpg" alt="Fachada e estrutura externa da Pousada Sol e Mar" class="gallery-img">
+                <div class="gallery-overlay"><span>Nossa Estrutura</span></div>
+            </div>
+
+            <!-- FOTO 3: Experiência de Praia (Cadeiras) -->
+            <div class="gallery-item" onclick="openGalleryModal(2)">
+                <img src="PRAIA 2.jpg" alt="Serviço de praia exclusivo para hóspedes" class="gallery-img">
+                <div class="gallery-overlay"><span>Pé na Areia</span></div>
+            </div>
+
+            <!-- FOTO 4: Ambiente Interno / Convivência -->
+            <div class="gallery-item" onclick="openGalleryModal(3)">
+                <img src="GALERIA POUSADA 4.jpg" alt="Sala de estar interna e aconchegante" class="gallery-img">
+                <div class="gallery-overlay"><span>Ambientes Aconchegantes</span></div>
+            </div>
+
+            <!-- FOTO 5: Café da Manhã (Arquivo antigo/atualizado) -->
+            <div class="gallery-item" onclick="openGalleryModal(4)">
+                <img src="PSEM CF 3.webp" alt="Café da manhã servido na área externa" class="gallery-img">
+                <div class="gallery-overlay"><span>Café da Manhã</span></div>
+            </div>
+
+            <!-- FOTO 6: Vista Panorâmica da Praia -->
+            <div class="gallery-item" onclick="openGalleryModal(5)">
+                <img src="GALERIA PRAIA.jpg" alt="Vista panorâmica aérea da praia" class="gallery-img">
+                <div class="gallery-overlay"><span>Nossa Região</span></div>
+            </div>
+            </div>
+
+        </div> <!-- Fim da gallery-grid -->
+    </div> <!-- Fim da div max-w-7xl -->
 </section>
 <!-- GALERIA LIGHTBOX MODAL -->
 <div id="gallery-lightbox" class="modal-overlay" onclick="closeGalleryIfOutside(event)">
@@ -500,30 +564,30 @@ body{background:#060B14;font-family:Inter,system-ui,sans-serif;color:#f1f5f9}
     <div class="modal-caption"><p id="gallery-caption" class="text-gray-400 text-sm"></p></div>
   </div>
 </div>
-<!-- EXPERIENCIAS -->
-<section id="experiencias" class="py-24 px-6 lg:px-12" style="background:#060B14">
+<!-- Experiências -->
+<section id="Experiências" class="py-24 px-6 lg:px-12" style="background:#060B14">
   <div class="max-w-7xl mx-auto">
     <div class="text-center mb-16">
       <div class="section-badge mb-6">O Que Fazer</div>
-      <h2 class="font-serif text-4xl lg:text-5xl font-bold text-white mb-4">Experiencias Unicas</h2>
+      <h2 class="font-serif text-4xl lg:text-5xl font-bold text-white mb-4">Experiências Únicas</h2>
       <div class="gold-line mb-6"></div>
-      <p class="text-gray-400 text-lg max-w-2xl mx-auto">Juquehy e a Joia do Litoral Norte: 3,5 km de areia branca e fina, mar calmo para familias e ondas no canto direito para o surf. Descubra tudo que este paraiso tem a oferecer.</p>
+      <p class="text-gray-400 text-lg max-w-2xl mx-auto">Juquehy é a Jóia do Litoral Norte: 3,5 km de areia branca e fina, mar calmo para familias e ondas no canto direito para o surf. Descubra tudo que este paraiso tem a oferecer.</p>
     </div>
     <div class="relative rounded-3xl overflow-hidden mb-16 h-64 lg:h-80">
       <img src="PSEM PRAIA 3.webp" alt="Praia de Juquehy" class="w-full h-full object-cover"/>
       <div class="absolute inset-0" style="background:linear-gradient(to right,rgba(6,11,20,.85) 0%,rgba(6,11,20,.4) 60%,rgba(6,11,20,.1) 100%)"></div>
       <div class="absolute inset-0 flex items-center px-10 lg:px-16">
         <div class="max-w-lg">
-          <h3 class="font-serif text-3xl lg:text-4xl font-bold text-white mb-3">Juquehy, a Joia do Litoral Norte</h3>
-          <p class="text-gray-300 leading-relaxed">3,5 km de areia branca e fina, mar calmo e seguro para familias no canto esquerdo, ondas para o surf no canto direito, vista frontal para as ilhas e o Rio Juquehy desaguando na praia. A apenas 150 km de Sao Paulo.</p>
+          <h3 class="font-serif text-3xl lg:text-4xl font-bold text-white mb-3">Juquehy, a Jóia do Litoral Norte</h3>
+          <p class="text-gray-300 leading-relaxed">3,5 km de areia branca e fina, mar calmo e seguro para familias no canto esquerdo, ondas para o surf no canto direito, vista frontal para as ilhas e o Rio Juquehy desaguando na praia. A apenas 150 km de São Paulo.</p>
         </div>
       </div>
     </div>
     <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-      <div class="exp-box rounded-2xl p-6 text-center cursor-default"><div class="w-14 h-14 rounded-2xl flex items-center justify-center mx-auto mb-4" style="background:rgba(245,158,11,.15)"><svg class="w-7 h-7 text-amber-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12.75 3.03v.568c0 .334.148.65.405.864l1.068.89c.442.369.535 1.01.216 1.49l-.51.766a2.25 2.25 0 01-1.161.886l-.143.048a1.107 1.107 0 00-.57 1.664c.369.555.169 1.307-.427 1.605L9 13.125l.423 1.059a.956.956 0 01-1.652.928l-.679-.906a1.125 1.125 0 00-1.906.172L4.5 15.75l-.612.153M12.75 3.031a9 9 0 00-8.862 12.872M12.75 3.031a9 9 0 016.69 14.036m0 0l-.177-.529A2.249 2.249 0 0017.5 15.75v-.633a2.249 2.249 0 00-.621-1.563l-1.293-1.293a2.249 2.249 0 00-1.872-.637l-.143.019a.75.75 0 01-.698-.32 1.125 1.125 0 00-1.407-.236"/></svg></div><h4 class="font-serif text-lg font-bold text-white mb-2">Surf &amp; Bodyboard</h4><p class="text-gray-400 text-sm leading-relaxed">O canto direito da praia oferece ondas expressivas para surfistas. Aulas com instrutores certificados disponiveis para iniciantes.</p></div>
-      <div class="exp-box rounded-2xl p-6 text-center cursor-default"><div class="w-14 h-14 rounded-2xl flex items-center justify-center mx-auto mb-4" style="background:rgba(245,158,11,.15)"><svg class="w-7 h-7 text-amber-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8.25v-1.5m0 1.5c-1.355 0-2.697.056-4.024.166C6.845 8.51 6 9.473 6 10.608v2.513m6-4.871c1.355 0 2.697.056 4.024.166C17.155 8.51 18 9.473 18 10.608v2.513M15 8.25v-1.5m-6 1.5v-1.5m12 9.75l-1.5.75a3.354 3.354 0 01-3 0 3.354 3.354 0 00-3 0 3.354 3.354 0 01-3 0 3.354 3.354 0 00-3 0L3 18m0-13.5V6a9 9 0 0118 0v.75"/></svg></div><h4 class="font-serif text-lg font-bold text-white mb-2">Centrinho Gastronomico</h4><p class="text-gray-400 text-sm leading-relaxed">O famoso Centrinho de Juquehy e plano, iluminado e repleto de restaurantes de alta gastronomia — perfeito para caminhadas noturnas em familia.</p></div>
-      <div class="exp-box rounded-2xl p-6 text-center cursor-default"><div class="w-14 h-14 rounded-2xl flex items-center justify-center mx-auto mb-4" style="background:rgba(245,158,11,.15)"><svg class="w-7 h-7 text-amber-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"/></svg></div><h4 class="font-serif text-lg font-bold text-white mb-2">Por do Sol</h4><p class="text-gray-400 text-sm leading-relaxed">Os pores do sol de Juquehy, com as ilhas ao fundo e o Rio Juquehy ao lado, sao simplesmente magicos. Um espetaculo diario da natureza.</p></div>
-      <div class="exp-box rounded-2xl p-6 text-center cursor-default"><div class="w-14 h-14 rounded-2xl flex items-center justify-center mx-auto mb-4" style="background:rgba(245,158,11,.15)"><svg class="w-7 h-7 text-amber-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M6.827 6.175A2.31 2.31 0 015.186 7.23c-.38.054-.757.112-1.134.175C2.999 7.58 2.25 8.507 2.25 9.574V18a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9.574c0-1.067-.75-1.994-1.802-2.169a47.865 47.865 0 00-1.134-.175 2.31 2.31 0 01-1.64-1.055l-.822-1.316a2.192 2.192 0 00-1.736-1.039 48.774 48.774 0 00-5.232 0 2.192 2.192 0 00-1.736 1.039l-.821 1.316z"/><path stroke-linecap="round" stroke-linejoin="round" d="M16.5 12.75a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zM18.75 10.5h.008v.008h-.008V10.5z"/></svg></div><h4 class="font-serif text-lg font-bold text-white mb-2">Passeios de Barco</h4><p class="text-gray-400 text-sm leading-relaxed">Explore a Ilha das Couves e o Montao de Trigo em passeios de barco com mergulho em aguas cristalinas.</p></div>
+      <div class="exp-box rounded-2xl p-6 text-center cursor-default"><div class="w-14 h-14 rounded-2xl flex items-center justify-center mx-auto mb-4" style="background:rgba(245,158,11,.15)"><svg class="w-7 h-7 text-amber-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12.75 3.03v.568c0 .334.148.65.405.864l1.068.89c.442.369.535 1.01.216 1.49l-.51.766a2.25 2.25 0 01-1.161.886l-.143.048a1.107 1.107 0 00-.57 1.664c.369.555.169 1.307-.427 1.605L9 13.125l.423 1.059a.956.956 0 01-1.652.928l-.679-.906a1.125 1.125 0 00-1.906.172L4.5 15.75l-.612.153M12.75 3.031a9 9 0 00-8.862 12.872M12.75 3.031a9 9 0 016.69 14.036m0 0l-.177-.529A2.249 2.249 0 0017.5 15.75v-.633a2.249 2.249 0 00-.621-1.563l-1.293-1.293a2.249 2.249 0 00-1.872-.637l-.143.019a.75.75 0 01-.698-.32 1.125 1.125 0 00-1.407-.236"/></svg></div><h4 class="font-serif text-lg font-bold text-white mb-2">Surf &amp; Bodyboard</h4><p class="text-gray-400 text-sm leading-relaxed">O canto direito da praia oferece ondas expressivas para surfistas. Aulas com instrutores certificados disponíveis para iniciantes.</p></div>
+      <div class="exp-box rounded-2xl p-6 text-center cursor-default"><div class="w-14 h-14 rounded-2xl flex items-center justify-center mx-auto mb-4" style="background:rgba(245,158,11,.15)"><svg class="w-7 h-7 text-amber-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8.25v-1.5m0 1.5c-1.355 0-2.697.056-4.024.166C6.845 8.51 6 9.473 6 10.608v2.513m6-4.871c1.355 0 2.697.056 4.024.166C17.155 8.51 18 9.473 18 10.608v2.513M15 8.25v-1.5m-6 1.5v-1.5m12 9.75l-1.5.75a3.354 3.354 0 01-3 0 3.354 3.354 0 00-3 0 3.354 3.354 0 01-3 0 3.354 3.354 0 00-3 0L3 18m0-13.5V6a9 9 0 0118 0v.75"/></svg></div><h4 class="font-serif text-lg font-bold text-white mb-2">Centrinho Gastronômico</h4><p class="text-gray-400 text-sm leading-relaxed">O famoso Centrinho de Juquehy e plano, iluminado e repleto de restaurantes de alta gastronomia — perfeito para caminhadas noturnas em familia.</p></div>
+      <div class="exp-box rounded-2xl p-6 text-center cursor-default"><div class="w-14 h-14 rounded-2xl flex items-center justify-center mx-auto mb-4" style="background:rgba(245,158,11,.15)"><svg class="w-7 h-7 text-amber-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"/></svg></div><h4 class="font-serif text-lg font-bold text-white mb-2">Por do Sol</h4><p class="text-gray-400 text-sm leading-relaxed">Os pores do sol de Juquehy, com as ilhas ao fundo e o Rio Juquehy ao lado, são simplesmente mágicos. Um espetáculo diário da natureza.</p></div>
+      <div class="exp-box rounded-2xl p-6 text-center cursor-default"><div class="w-14 h-14 rounded-2xl flex items-center justify-center mx-auto mb-4" style="background:rgba(245,158,11,.15)"><svg class="w-7 h-7 text-amber-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M6.827 6.175A2.31 2.31 0 015.186 7.23c-.38.054-.757.112-1.134.175C2.999 7.58 2.25 8.507 2.25 9.574V18a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9.574c0-1.067-.75-1.994-1.802-2.169a47.865 47.865 0 00-1.134-.175 2.31 2.31 0 01-1.64-1.055l-.822-1.316a2.192 2.192 0 00-1.736-1.039 48.774 48.774 0 00-5.232 0 2.192 2.192 0 00-1.736 1.039l-.821 1.316z"/><path stroke-linecap="round" stroke-linejoin="round" d="M16.5 12.75a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zM18.75 10.5h.008v.008h-.008V10.5z"/></svg></div><h4 class="font-serif text-lg font-bold text-white mb-2">Passeios de Barco</h4><p class="text-gray-400 text-sm leading-relaxed">Explore a Ilha das Couves e o Montão de Trigo em passeios de barco com mergulho em águas cristalinas.</p></div>
     </div>
   </div>
 </section>
@@ -533,7 +597,7 @@ body{background:#060B14;font-family:Inter,system-ui,sans-serif;color:#f1f5f9}
   <div class="absolute inset-0" style="background:linear-gradient(to right,rgba(6,11,20,.88) 0%,rgba(6,11,20,.55) 60%,rgba(6,11,20,.15) 100%)"></div>
   <div class="absolute inset-0 flex items-center px-8 lg:px-20">
     <div class="max-w-xl">
-      <h2 class="font-serif text-3xl lg:text-5xl font-bold text-white mb-4 leading-tight">Sua proxima<br/><span class="gold-text italic">aventura te espera</span></h2>
+      <h2 class="font-serif text-3xl lg:text-5xl font-bold text-white mb-4 leading-tight">Sua próxima<br/><span class="gold-text italic">aventura te espera</span></h2>
       <p class="text-gray-300 mb-6 text-lg">Reserve agora e garanta sua estadia na Joia do Litoral Norte.</p>
       <a href="https://wa.me/551238631666?text=Ol%C3%A1!%20Gostaria%20de%20fazer%20uma%20reserva%20na%20Pousada%20Sol%20e%20Mar." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-amber-500 hover:bg-amber-400 text-gray-900 font-bold px-8 py-4 rounded-full transition-all duration-200 hover:-translate-y-1 shadow-2xl">Reserve pelo WhatsApp</a>
     </div>
@@ -544,39 +608,40 @@ body{background:#060B14;font-family:Inter,system-ui,sans-serif;color:#f1f5f9}
   <div class="max-w-7xl mx-auto">
     <div class="text-center mb-16">
       <div class="section-badge mb-6">Depoimentos</div>
-      <h2 class="font-serif text-4xl lg:text-5xl font-bold text-white mb-4">O Que Dizem Nossos Hospedes</h2>
+      <h2 class="font-serif text-4xl lg:text-5xl font-bold text-white mb-4">O Que Dizem Nossos Hóspedes</h2>
       <div class="gold-line mb-6"></div>
-      <p class="text-gray-400 text-lg max-w-2xl mx-auto">A satisfacao dos nossos hospedes e a nossa maior recompensa. Veja o que eles tem a dizer sobre a experiencia Sol e Mar.</p>
+      <p class="text-gray-400 text-lg max-w-2xl mx-auto">A satisfação dos nossos hóspedes e a nossa maior recompensa. Veja o que eles tem a dizer sobre a experiencia Sol e Mar.</p>
     </div>
     <div class="grid md:grid-cols-3 gap-8">
       <div class="testimonial-card rounded-3xl p-8">
         <div class="flex items-center gap-1 mb-4"><svg class="w-5 h-5 text-amber-400" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg class="w-5 h-5 text-amber-400" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg class="w-5 h-5 text-amber-400" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg class="w-5 h-5 text-amber-400" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg class="w-5 h-5 text-amber-400" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg></div>
-        <p class="text-gray-300 leading-relaxed mb-6 italic">"Simplesmente perfeito! A pousada e linda, o atendimento e impecavel e a localizacao e incrivel. Ficamos no Quarto Superior Vista Mar e acordar com aquela vista todos os dias foi magico. Com certeza voltaremos!"</p>
-        <div class="flex items-center gap-3"><div class="w-12 h-12 rounded-full bg-amber-500 flex items-center justify-center text-white font-bold text-lg">A</div><div><div class="font-semibold text-white">Ana Carolina S.</div><div class="text-xs text-gray-500">Sao Paulo, SP · Janeiro 2025</div></div></div>
+        <p class="text-gray-300 leading-relaxed mb-6 italic">"Simplesmente perfeito! A pousada é linda, o atendimento e impecavel e a localização é íncrivel. Ficamos no Quarto Superior Vista Mar e acordar com aquela vista todos os dias foi mágico. Com certeza voltaremos!"</p>
+        <div class="flex items-center gap-3"><div class="w-12 h-12 rounded-full bg-amber-500 flex items-center justify-center text-white font-bold text-lg">A</div><div><div class="font-semibold text-white">Ana Carolina S.</div><div class="text-xs text-gray-500">São Paulo, SP · Janeiro 2025</div></div></div>
       </div>
       <div class="testimonial-card rounded-3xl p-8">
         <div class="flex items-center gap-1 mb-4"><svg class="w-5 h-5 text-amber-400" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg class="w-5 h-5 text-amber-400" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg class="w-5 h-5 text-amber-400" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg class="w-5 h-5 text-amber-400" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg class="w-5 h-5 text-amber-400" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg></div>
-        <p class="text-gray-300 leading-relaxed mb-6 italic">"Passamos nossa lua de mel na Suite Romantica e foi absolutamente inesquecivel. A equipe preparou uma surpresa incrivel no quarto, o cafe da manha era delicioso e a atencao aos detalhes nos encantou. Recomendo de olhos fechados!"</p>
+        <p class="text-gray-300 leading-relaxed mb-6 italic">"Passamos nossa lua de mel na Suíte Premium e foi absolutamente inesquecível. A equipe preparou uma surpresa incrível no quarto, o café da manhã era delicioso e a atenção aos detalhes nos encantou. Recomendo de olhos fechados!"
+</p>
         <div class="flex items-center gap-3"><div class="w-12 h-12 rounded-full bg-teal-500 flex items-center justify-center text-white font-bold text-lg">R</div><div><div class="font-semibold text-white">Rafael &amp; Juliana M.</div><div class="text-xs text-gray-500">Campinas, SP · Dezembro 2024</div></div></div>
       </div>
       <div class="testimonial-card rounded-3xl p-8">
         <div class="flex items-center gap-1 mb-4"><svg class="w-5 h-5 text-amber-400" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg class="w-5 h-5 text-amber-400" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg class="w-5 h-5 text-amber-400" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg class="w-5 h-5 text-amber-400" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg class="w-5 h-5 text-amber-400" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg></div>
-        <p class="text-gray-300 leading-relaxed mb-6 italic">"Ja e a terceira vez que ficamos na Pousada Sol e Mar e cada vez e melhor. O cafe da manha e farto e delicioso, os quartos sao sempre impecaveis e a familia que cuida da pousada e extremamente atenciosa. Lugar especial!"</p>
+        <p class="text-gray-300 leading-relaxed mb-6 italic">"Ja é a terceira vez que ficamos na Pousada Sol e Mar e cada vez é melhor. O café da manha é farto e delicioso, os quartos são sempre impecáveis e a família que cuida da pousada é extremamente atenciosa. Lugar especial!"</p>
         <div class="flex items-center gap-3"><div class="w-12 h-12 rounded-full bg-rose-500 flex items-center justify-center text-white font-bold text-lg">F</div><div><div class="font-semibold text-white">Fernanda L.</div><div class="text-xs text-gray-500">Curitiba, PR · Marco 2025</div></div></div>
       </div>
     </div>
     <div class="mt-12 p-8 rounded-3xl text-center" style="background:linear-gradient(135deg,rgba(245,158,11,.08) 0%,rgba(20,184,166,.05) 100%);border:1px solid rgba(245,158,11,.15)">
       <div class="flex flex-wrap items-center justify-center gap-8">
-        <div><div class="font-serif text-5xl font-bold text-amber-400 mb-1">4.9</div><div class="text-gray-400 text-sm">Avaliacao geral</div></div>
+        <div><div class="font-serif text-5xl font-bold text-amber-400 mb-1">4.9</div><div class="text-gray-400 text-sm">Avaliação geral</div></div>
         <div class="hidden sm:block w-px h-16 bg-white/10"></div>
         <div class="text-left">
           <div class="flex items-center gap-3 mb-2"><span class="text-gray-400 text-sm w-24">Limpeza</span><div class="flex-1 h-2 rounded-full bg-white/10"><div class="h-2 rounded-full bg-amber-400" style="width:98%"></div></div><span class="text-amber-400 text-sm font-semibold">4.9</span></div>
           <div class="flex items-center gap-3 mb-2"><span class="text-gray-400 text-sm w-24">Atendimento</span><div class="flex-1 h-2 rounded-full bg-white/10"><div class="h-2 rounded-full bg-amber-400" style="width:100%"></div></div><span class="text-amber-400 text-sm font-semibold">5.0</span></div>
-          <div class="flex items-center gap-3 mb-2"><span class="text-gray-400 text-sm w-24">Localizacao</span><div class="flex-1 h-2 rounded-full bg-white/10"><div class="h-2 rounded-full bg-amber-400" style="width:96%"></div></div><span class="text-amber-400 text-sm font-semibold">4.8</span></div>
+          <div class="flex items-center gap-3 mb-2"><span class="text-gray-400 text-sm w-24">Localização</span><div class="flex-1 h-2 rounded-full bg-white/10"><div class="h-2 rounded-full bg-amber-400" style="width:96%"></div></div><span class="text-amber-400 text-sm font-semibold">4.8</span></div>
           <div class="flex items-center gap-3"><span class="text-gray-400 text-sm w-24">Custo-beneficio</span><div class="flex-1 h-2 rounded-full bg-white/10"><div class="h-2 rounded-full bg-amber-400" style="width:94%"></div></div><span class="text-amber-400 text-sm font-semibold">4.7</span></div>
         </div>
         <div class="hidden sm:block w-px h-16 bg-white/10"></div>
-        <div class="text-center"><div class="font-serif text-3xl font-bold text-white mb-1">500+</div><div class="text-gray-400 text-sm">Avaliacoes verificadas</div></div>
+        <div class="text-center"><div class="font-serif text-3xl font-bold text-white mb-1">500+</div><div class="text-gray-400 text-sm">Avaliações verificadas</div></div>
       </div>
     </div>
   </div>
@@ -585,28 +650,55 @@ body{background:#060B14;font-family:Inter,system-ui,sans-serif;color:#f1f5f9}
 <section id="contato" class="py-24 px-6 lg:px-12" style="background:#060B14">
   <div class="max-w-7xl mx-auto">
     <div class="text-center mb-16">
+      <!-- SEÇÃO: A EXPERIÊNCIA DE ESTADIA -->
+<section id="experiencia-estadia" class="py-16 bg-[#060B14] border-t border-white/5">
+  <div class="max-w-5xl mx-auto px-4 text-center">
+    <span class="section-badge">Bem-Estar</span>
+    <h3 class="text-2xl md:text-3xl font-serif mt-2 mb-10 font-bold">A Experiência de Estadia</h3>
+    
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-sm text-gray-400">
+      <!-- Card Fumo -->
+      <div class="p-6 bg-gradient-to-b from-[#0F172A]/40 to-transparent border border-white/5 rounded-2xl space-y-2">
+        <h4 class="text-white font-medium font-serif text-base">Ar Puro & Conforto</h4>
+        <p class="leading-relaxed">Para preservar o frescor e o padrão de higiene, todas as nossas suítes e apartamentos são 100% livres de fumo.</p>
+      </div>
+
+      <!-- Card Pets -->
+      <div class="p-6 bg-gradient-to-b from-[#0F172A]/40 to-transparent border border-white/5 rounded-2xl space-y-2">
+        <h4 class="text-white font-medium font-serif text-base">Tranquilidade Exclusiva</h4>
+        <p class="leading-relaxed">Visando a tranquilidade dos hóspedes e a estrutura de nossas acomodações, não dispomos de estrutura para pets.</p>
+      </div>
+
+      <!-- Card Silêncio -->
+      <div class="p-6 bg-gradient-to-b from-[#0F172A]/40 to-transparent border border-white/5 rounded-2xl space-y-2">
+        <h4 class="text-white font-medium font-serif text-base">Descanso Absoluto</h4>
+        <p class="leading-relaxed">Em respeito ao descanso coletivo e à conexão com a natureza de Juquehy, preservamos o silêncio total a partir das 22h.</p>
+      </div>
+    </div>
+  </div>
+</section>
       <div class="section-badge mb-6">Fale Conosco</div>
       <h2 class="font-serif text-4xl lg:text-5xl font-bold text-white mb-4">Entre em Contato</h2>
       <div class="gold-line mb-6"></div>
-      <p class="text-gray-400 text-lg max-w-2xl mx-auto">Estamos prontos para tornar a sua estadia em Juquehy inesquecivel. No Km 176 da Rodovia Rio-Santos, a apenas 150 km de Sao Paulo.</p>
+      <p class="text-gray-400 text-lg max-w-2xl mx-auto">Estamos prontos para tornar a sua estadia em Juquehy inesquecível. No Km 176 da Rodovia Rio-Santos, a apenas 150 km de São Paulo.</p>
     </div>
     <div class="grid lg:grid-cols-2 gap-12 items-start">
       <div class="space-y-4">
         <div class="contact-item">
           <div class="w-12 h-12 rounded-2xl flex-shrink-0 flex items-center justify-center" style="background:rgba(245,158,11,.15);border:1px solid rgba(245,158,11,.25)"><svg class="w-6 h-6 text-amber-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"/></svg></div>
-          <div><div class="font-semibold text-white mb-1">Endereco</div><div class="text-gray-400 text-sm leading-relaxed">R. Benedito Izidoro de Moraes, 392 — Juquehy<br/>Sao Sebastiao - SP, CEP 11600-000<br/><span class="text-gray-500 text-xs">Km 176 da Rodovia Rio-Santos</span></div></div>
+          <div><div class="font-semibold text-white mb-1">Endereco</div><div class="text-gray-400 text-sm leading-relaxed">R. Benedito Izidoro de Moraes, 392 — Juquehy<br/>São Sebastião - SP, CEP 11600-000<br/><span class="text-gray-500 text-xs">Km 176 da Rodovia Rio-Santos</span></div></div>
         </div>
         <div class="contact-item">
           <div class="w-12 h-12 rounded-2xl flex-shrink-0 flex items-center justify-center" style="background:rgba(37,211,102,.15);border:1px solid rgba(37,211,102,.25)"><svg class="w-6 h-6 text-green-400" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></div>
-          <div><div class="font-semibold text-white mb-1">WhatsApp</div><a href="https://wa.me/551238631666" target="_blank" rel="noopener noreferrer" class="text-green-400 hover:text-green-300 text-sm transition-colors">(12) 3863-1666</a><div class="text-gray-500 text-xs mt-1">Atendimento: 8h as 22h, todos os dias</div></div>
+          <div><div class="font-semibold text-white mb-1">WhatsApp</div><a href="https://wa.me/551238631666" target="_blank" rel="noopener noreferrer" class="text-green-400 hover:text-green-300 text-sm transition-colors">(12) 3863-1666</a><div class="text-gray-500 text-xs mt-1">Atendimento: 8h às 22h, todos os dias</div></div>
         </div>
         <div class="contact-item">
           <div class="w-12 h-12 rounded-2xl flex-shrink-0 flex items-center justify-center" style="background:rgba(245,158,11,.15);border:1px solid rgba(245,158,11,.25)"><svg class="w-6 h-6 text-amber-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"/></svg></div>
-          <div><div class="font-semibold text-white mb-1">E-mail</div><a href="mailto:contato@pousadasolemar.com.br" class="text-amber-400 hover:text-amber-300 text-sm transition-colors">contato@pousadasolemar.com.br</a><div class="text-gray-500 text-xs mt-1">Respondemos em ate 2 horas</div></div>
+          <div><div class="font-semibold text-white mb-1">E-mail</div><a href="mailto:contato@pousadasolemar.com.br" class="text-amber-400 hover:text-amber-300 text-sm transition-colors">contato@pousadasolemar.com.br</a><div class="text-gray-500 text-xs mt-1">Respondemos em até 2 horas</div></div>
         </div>
         <div class="contact-item">
           <div class="w-12 h-12 rounded-2xl flex-shrink-0 flex items-center justify-center" style="background:rgba(245,158,11,.15);border:1px solid rgba(245,158,11,.25)"><svg class="w-6 h-6 text-amber-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
-          <div><div class="font-semibold text-white mb-1">Horarios</div><div class="text-gray-400 text-sm">Check-in: a partir das 14h</div><div class="text-gray-400 text-sm">Check-out: ate as 12h</div><div class="text-gray-500 text-xs mt-1">Horarios flexiveis mediante disponibilidade</div></div>
+          <div><div class="font-semibold text-white mb-1">Horários</div><div class="text-gray-400 text-sm">Check-in: a partir das 14h</div><div class="text-gray-400 text-sm">Check-out: até às 12h</div><div class="text-gray-500 text-xs mt-1">Horários flexíveis mediante disponibilidade</div></div>
         </div>
         <a href="https://wa.me/551238631666?text=Ol%C3%A1!%20Gostaria%20de%20fazer%20uma%20reserva%20na%20Pousada%20Sol%20e%20Mar." target="_blank" rel="noopener noreferrer" class="flex items-center justify-center gap-3 w-full py-4 rounded-2xl font-bold text-white text-base transition-all duration-200 hover:-translate-y-1 mt-2" style="background:linear-gradient(135deg,#25D366,#128C7E);box-shadow:0 8px 30px rgba(37,211,102,.3)">
           <svg class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
@@ -614,11 +706,15 @@ body{background:#060B14;font-family:Inter,system-ui,sans-serif;color:#f1f5f9}
         </a>
       </div>
       <div class="rounded-3xl overflow-hidden shadow-2xl" style="border:1px solid rgba(255,255,255,.08);height:500px">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116847.68755372055!2d-45.8645725250244!3d-23.765551099854633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d28130956ff773%3A0x91a26db6290f025d!2sPousada%20Sol%20e%20Mar!5e0!3m2!1spt-BR!2sbr!4v1786553387653!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;filter:invert(90%) hue-rotate(180deg) saturate(0.8)" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Localizacao da Pousada Sol e Mar em Juquehy"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116847.68755372055!2d-45.8645725250244!3d-23.765551099854633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d28130956ff773%3A0x91a26db6290f025d!2sPousada%20Sol%20e%20Mar!5e0!3m2!1spt-BR!2sbr!4v1786553387653!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;filter:invert(90%) hue-rotate(180deg) saturate(0.8)" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Localização da Pousada Sol e Mar em Juquehy"></iframe>
       </div>
     </div>
   </div>
 </section>
+
+        </div>
+
+
 <!-- FOOTER -->
 <footer style="background:#030710;border-top:1px solid rgba(255,255,255,.06)">
   <div class="max-w-7xl mx-auto px-6 lg:px-12 py-16">
@@ -628,7 +724,7 @@ body{background:#060B14;font-family:Inter,system-ui,sans-serif;color:#f1f5f9}
           <div class="w-10 h-10 rounded-full bg-amber-500 flex items-center justify-center"><svg class="w-5 h-5" viewBox="0 0 24 24" fill="white"><path d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.592-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z"/></svg></div>
           <div><span class="block font-serif font-bold text-xl text-white">Sol e Mar</span><span class="block text-xs text-amber-400 font-semibold tracking-widest uppercase">Pousada</span></div>
         </div>
-        <p class="text-gray-500 text-sm leading-relaxed mb-6 max-w-sm">Seu refugio a beira-mar na Praia de Juquehy — a Joia do Litoral Norte —, Sao Sebastiao - SP. A 150 km de Sao Paulo, no Km 176 da Rio-Santos.</p>
+        <p class="text-gray-500 text-sm leading-relaxed mb-6 max-w-sm">Seu refúgio no coração de Juquehy, a poucos passos da praia na Praia de Juquehy — a Jóia do Litoral Norte —, São Sebastião - SP. A 150 km de São Paulo, no Km 176 da Rio-Santos.</p>
         <div class="flex items-center gap-3">
           <a href="#" aria-label="Instagram" class="w-10 h-10 rounded-full flex items-center justify-center transition-all duration-200 hover:-translate-y-1" style="background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.1)"><svg class="w-5 h-5 text-gray-400" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
           <a href="https://wa.me/551238631666" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" class="w-10 h-10 rounded-full flex items-center justify-center transition-all duration-200 hover:-translate-y-1" style="background:rgba(37,211,102,.15);border:1px solid rgba(37,211,102,.25)"><svg class="w-5 h-5 text-green-400" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
@@ -637,11 +733,11 @@ body{background:#060B14;font-family:Inter,system-ui,sans-serif;color:#f1f5f9}
       <div>
         <h4 class="font-semibold text-white mb-5 text-sm tracking-wider uppercase">Navegacao</h4>
         <ul class="space-y-3">
-          <li><a href="#inicio" class="text-gray-500 hover:text-amber-400 text-sm transition-colors">Inicio</a></li>
-          <li><a href="#sobre" class="text-gray-500 hover:text-amber-400 text-sm transition-colors">Sobre Nos</a></li>
+          <li><a href="#início" class="text-gray-500 hover:text-amber-400 text-sm transition-colors">Início</a></li>
+          <li><a href="#sobre" class="text-gray-500 hover:text-amber-400 text-sm transition-colors">Sobre Nós</a></li>
           <li><a href="#quartos" class="text-gray-500 hover:text-amber-400 text-sm transition-colors">Quartos</a></li>
           <li><a href="#galeria" class="text-gray-500 hover:text-amber-400 text-sm transition-colors">Galeria</a></li>
-          <li><a href="#experiencias" class="text-gray-500 hover:text-amber-400 text-sm transition-colors">Experiencias</a></li>
+          <li><a href="#Experiências" class="text-gray-500 hover:text-amber-400 text-sm transition-colors">Experiências</a></li>
           <li><a href="#depoimentos" class="text-gray-500 hover:text-amber-400 text-sm transition-colors">Depoimentos</a></li>
           <li><a href="#contato" class="text-gray-500 hover:text-amber-400 text-sm transition-colors">Contato</a></li>
         </ul>
@@ -649,7 +745,7 @@ body{background:#060B14;font-family:Inter,system-ui,sans-serif;color:#f1f5f9}
       <div>
         <h4 class="font-semibold text-white mb-5 text-sm tracking-wider uppercase">Contato Rapido</h4>
         <ul class="space-y-4">
-          <li class="flex items-start gap-3"><svg class="w-4 h-4 text-amber-400 mt-0.5 flex-shrink-0" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M9.69 18.933l.003.001C9.89 19.02 10 19 10 19s.11.02.308-.066l.002-.001.006-.003.018-.008a5.741 5.741 0 00.281-.14c.186-.096.446-.24.757-.433.62-.384 1.445-.966 2.274-1.765C15.302 14.988 17 12.493 17 9A7 7 0 103 9c0 3.492 1.698 5.988 3.355 7.584a13.731 13.731 0 002.273 1.765 11.842 11.842 0 00.976.544l.062.029.018.008.006.003zM10 11.25a2.25 2.25 0 100-4.5 2.25 2.25 0 000 4.5z" clip-rule="evenodd"/></svg><span class="text-gray-500 text-sm">R. Benedito Izidoro de Moraes, 392<br/>Juquehy, Sao Sebastiao - SP</span></li>
+          <li class="flex items-start gap-3"><svg class="w-4 h-4 text-amber-400 mt-0.5 flex-shrink-0" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M9.69 18.933l.003.001C9.89 19.02 10 19 10 19s.11.02.308-.066l.002-.001.006-.003.018-.008a5.741 5.741 0 00.281-.14c.186-.096.446-.24.757-.433.62-.384 1.445-.966 2.274-1.765C15.302 14.988 17 12.493 17 9A7 7 0 103 9c0 3.492 1.698 5.988 3.355 7.584a13.731 13.731 0 002.273 1.765 11.842 11.842 0 00.976.544l.062.029.018.008.006.003zM10 11.25a2.25 2.25 0 100-4.5 2.25 2.25 0 000 4.5z" clip-rule="evenodd"/></svg><span class="text-gray-500 text-sm">R. Benedito Izidoro de Moraes, 392<br/>Juquehy, São Sebastião - SP</span></li>
           <li class="flex items-center gap-3"><svg class="w-4 h-4 text-green-400 flex-shrink-0" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg><a href="https://wa.me/551238631666" target="_blank" rel="noopener noreferrer" class="text-gray-500 hover:text-green-400 text-sm transition-colors">(12) 3863-1666</a></li>
           <li class="flex items-center gap-3"><svg class="w-4 h-4 text-amber-400 flex-shrink-0" viewBox="0 0 20 20" fill="currentColor"><path d="M3 4a2 2 0 00-2 2v1.161l8.441 4.221a1.25 1.25 0 001.118 0L19 7.162V6a2 2 0 00-2-2H3z"/><path d="M19 8.839l-7.77 3.885a2.75 2.75 0 01-2.46 0L1 8.839V14a2 2 0 002 2h14a2 2 0 002-2V8.839z"/></svg><a href="mailto:contato@pousadasolemar.com.br" class="text-gray-500 hover:text-amber-400 text-sm transition-colors">contato@pousadasolemar.com.br</a></li>
         </ul>
@@ -657,13 +753,193 @@ body{background:#060B14;font-family:Inter,system-ui,sans-serif;color:#f1f5f9}
     </div>
     <div class="pt-8" style="border-top:1px solid rgba(255,255,255,.06)">
       <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
-        <p class="text-gray-600 text-sm text-center sm:text-left">&copy; 2025 Pousada Sol e Mar. Todos os direitos reservados. Juquehy, Sao Sebastiao - SP.</p>
+        <p class="text-gray-600 text-sm text-center sm:text-left">&copy; 2025 Pousada Sol e Mar. Todos os direitos reservados. Juquehy, São Sebastião - SP.</p>
         <div class="flex items-center gap-4"><a href="#" class="text-gray-600 hover:text-gray-400 text-xs transition-colors">Politica de Privacidade</a><span class="text-gray-700">·</span><a href="#" class="text-gray-600 hover:text-gray-400 text-xs transition-colors">Termos de Uso</a></div>
       </div>
     </div>
   </div>
 </footer>
-<!-- PLACEHOLDER_MODALS -->
-<!-- PLACEHOLDER_JS -->
+<!-- ROOM "VER FOTOS" GALLERY MODAL (independent per accommodation) -->
+<div id="room-gallery-modal" class="modal-overlay" onclick="closeRoomModal()">
+  <div class="modal-box" style="max-width:900px" onclick="event.stopPropagation()">
+    <button class="modal-close" onclick="closeRoomModal()">&times;</button>
+    <div class="modal-img-wrap">
+      <img id="room-modal-img" class="modal-img" src="" alt="">
+      <button class="modal-nav prev" onclick="roomModalNav(-1)">&#8592;</button>
+      <button class="modal-nav next" onclick="roomModalNav(1)">&#8594;</button>
+    </div>
+    <div class="modal-dots" id="room-modal-dots"></div>
+    <div class="modal-caption"><h4 id="room-modal-title"></h4></div>
+  </div>
+</div>
+<!-- MODAL DE TELA CHEIA -->
+<div id="galleryModal" class="modal-overlay" onclick="closeGalleryModal()">
+  <div class="modal-box" onclick="event.stopPropagation()">
+    <button class="modal-close" onclick="closeGalleryModal()">&times;</button>
+    <div class="modal-img-wrap">
+      <img id="modalTargetImg" src="" alt="Imagem Ampliada" class="modal-img">
+    </div>
+    <div class="modal-caption">
+      <h4 id="modalTitle"></h4>
+    </div>
+  </div>
+</div>
+<script>
+// Filtro das Acomodações (Todos / Para Casais / Para Famílias)
+function filterRooms(category, btn) {
+  document.querySelectorAll('#quartos .filter-btn').forEach(function(b) {
+    b.classList.remove('active');
+  });
+  if (btn) btn.classList.add('active');
+
+  document.querySelectorAll('#rooms-grid .room-card-wrap').forEach(function(card) {
+    if (category === 'todos' || card.getAttribute('data-category') === category) {
+      card.classList.remove('hidden-card');
+    } else {
+      card.classList.add('hidden-card');
+    }
+  });
+}
+
+// Mantém as suas fotos exatamente como estavam
+const galleryImages = [
+  { src: "PSEM PRAIA 2.webp", caption: "Pôr do Sol Inesquecível em Juquehy" },
+  { src: "POUSADA OPCAO.jpg", caption: "Nossa estrutura Externa e Recepção" },
+  { src: "PRAIA 2.jpg", caption: "Serviço de Praia Exclusivo para Hóspedes" },
+  { src: "GALERIA POUSADA 4.jpg", caption: "Ambientes Internos Aconchegantes" },
+  { src: "PSEM CF 3.webp", caption: "Delicioso  Café da Manhã Servido na Área Externa"},
+  { src: "GALERIA PRAIA.jpg", caption: "Vista Panorâmica da Linda Região"},
+];
+
+let currentGalleryIndex = 0;
+
+// FUNÇÃO PARA ABRIR A FOTO EM TELA CHEIA
+function openGalleryModal(index) {
+  currentGalleryIndex = index;
+  const modal = document.getElementById('galleryModal');
+  const modalImg = document.getElementById('modalTargetImg');
+  const modalTitle = document.getElementById('modalTitle');
+
+  if (galleryImages[index]) {
+    modalImg.src = galleryImages[index].src;
+    modalTitle.textContent = galleryImages[index].caption;
+    modal.classList.add('open');
+    document.body.style.overflow = 'hidden'; // Trava a página ao fundo
+  }
+}
+
+// FUNÇÃO PARA FECHAR O MODAL
+function closeGalleryModal() {
+  const modal = document.getElementById('galleryModal');
+  modal.classList.remove('open');
+  document.body.style.overflow = ''; // Libera a página
+}
+
+// ATIVAR O CLIQUE NAS SUAS FOTOS ATUAIS
+document.addEventListener("DOMContentLoaded", function() {
+  const items = document.querySelectorAll('.gallery-item');
+  items.forEach((item, index) => {
+    item.addEventListener('click', function() {
+      openGalleryModal(index);
+    });
+  });
+});
+
+// Fechar com a tecla ESC
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') closeGalleryModal();
+});
+
+// ==== GALERIAS INDEPENDENTES POR ACOMODAÇÃO ("Ver Fotos") ====
+const roomGalleries = {
+  'suite-luxo': [
+    { src: "SUITE LUXO 2.jpg", caption: "Suíte Luxo" },
+    { src: "SUITE LUXO 3.jpg", caption: "Suíte Luxo" }
+  ],
+  'suite-premium-inf': [
+    { src: "SUITE INFERIOR 2.jpg", caption: "Suíte Premium Inferior" },
+    { src: "SUITE INFERIOR 3.jpg", caption: "Suíte Premium Inferior" },
+    { src: "SUITE INFERIOR 4.jpg", caption: "Suíte Premium Inferior" }
+  ],
+  'suite-master': [
+    { src: "SUITE MASTER 2.webp", caption: "Suíte Master" },
+    { src: "SUITE MASTER 3.jpg", caption: "Suíte Master" }
+  ],
+  'suite-premium-sup': [
+    { src: "SUITE PREMIUM SUPERIOR 1.webp", caption: "Suíte Premium Superior" }
+  ],
+  'apto-cozinha': [
+    { src: "APARTAMENTO COM COZINHA 2.jpg", caption: "Apartamento com Cozinha" },
+    { src: "APARTAMENTO COM COZINHA 4.jpg", caption: "Apartamento com Cozinha" }
+  ]
+};
+
+let currentRoomGalleryKey = null;
+let currentRoomGalleryIndex = 0;
+
+function openRoomGallery(key) {
+  const images = roomGalleries[key];
+  if (!images || images.length === 0) return;
+  currentRoomGalleryKey = key;
+  currentRoomGalleryIndex = 0;
+  renderRoomModal();
+  const modal = document.getElementById('room-gallery-modal');
+  modal.classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function renderRoomModal() {
+  const images = roomGalleries[currentRoomGalleryKey];
+  if (!images) return;
+  const img = document.getElementById('room-modal-img');
+  const title = document.getElementById('room-modal-title');
+  const dotsWrap = document.getElementById('room-modal-dots');
+  const current = images[currentRoomGalleryIndex];
+  img.src = current.src;
+  img.alt = current.caption;
+  title.textContent = current.caption;
+
+  dotsWrap.innerHTML = '';
+  images.forEach(function(_, i) {
+    const dot = document.createElement('span');
+    dot.className = 'modal-dot' + (i === currentRoomGalleryIndex ? ' active' : '');
+    dot.onclick = function(e) {
+      e.stopPropagation();
+      currentRoomGalleryIndex = i;
+      renderRoomModal();
+    };
+    dotsWrap.appendChild(dot);
+  });
+
+  const navPrev = document.querySelector('#room-gallery-modal .modal-nav.prev');
+  const navNext = document.querySelector('#room-gallery-modal .modal-nav.next');
+  const showNav = images.length > 1;
+  if (navPrev) navPrev.style.display = showNav ? 'flex' : 'none';
+  if (navNext) navNext.style.display = showNav ? 'flex' : 'none';
+}
+
+function roomModalNav(direction) {
+  const images = roomGalleries[currentRoomGalleryKey];
+  if (!images || images.length === 0) return;
+  currentRoomGalleryIndex = (currentRoomGalleryIndex + direction + images.length) % images.length;
+  renderRoomModal();
+}
+
+function closeRoomModal() {
+  const modal = document.getElementById('room-gallery-modal');
+  modal.classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+document.addEventListener('keydown', function(e) {
+  const modal = document.getElementById('room-gallery-modal');
+  if (!modal || !modal.classList.contains('open')) return;
+  if (e.key === 'Escape') closeRoomModal();
+  if (e.key === 'ArrowLeft') roomModalNav(-1);
+  if (e.key === 'ArrowRight') roomModalNav(1);
+});
+</script>
+
 </body>
 </html>
+
